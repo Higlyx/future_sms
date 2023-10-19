@@ -67,7 +67,7 @@ SMS package to use Future SMS (EGYPT ONLY).
 ## Thanks
 
 * You can donate to support me at [PayPal](https://www.paypal.me/kar1mmohamed)
-![Kar1mMohamed](https://github.com/Kar1mMohamed/future_sms/blob/master/images/Paypal.png)
+![Kar1mMohamed](https://raw.githubusercontent.com/Kar1mMohamed/future_sms/main/images/Paypal.png)
 
 <!-- ## Additional information
 
