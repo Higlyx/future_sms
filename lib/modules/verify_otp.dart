@@ -111,6 +111,7 @@ class VerifyOTPDataModule {
 
 class ResponseVerifyOTPModule extends APIBaseResponse {
   @override
+  // ignore: overridden_fields
   final String message;
 
   /// This is firebase custom token used to login with custom token in firebase , it returns null if the firebase service account is not set
