@@ -2,7 +2,7 @@ name: future_sms
 description: SMS package to use Future SMS (EGYPT ONLY).
 version: 0.1.0
 homepage: https://github.com/Kar1mMohamed
-repository: 
+repository: https://github.com/Kar1mMohamed/future_sms
 
 environment:
   sdk: '>=3.1.3 <4.0.0'
