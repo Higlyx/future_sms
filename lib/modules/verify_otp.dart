@@ -117,14 +117,18 @@ class ResponseVerifyOTPModule extends APIBaseResponse {
   /// This is firebase custom token used to login with custom token in firebase , it returns null if the firebase service account is not set
   final String? token;
 
+  final bool? isVerified;
+
   ResponseVerifyOTPModule({
     required this.message,
     this.token,
+    this.isVerified,
   }) : super(message: message);
 
   factory ResponseVerifyOTPModule.fromMap(Map<String, dynamic> map) {
     return ResponseVerifyOTPModule(
       message: map['message'] as String,
+      isVerified: map['isVerified'] as bool?,
       token: map['token'] as String?,
     );
   }
