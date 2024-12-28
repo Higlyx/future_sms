@@ -7,8 +7,8 @@ class PhoneNumberModule {
     required this.countryCode,
     required this.phoneNumber,
   }) {
-    if (countryCode != '+20') {
-      throw Exception('countryCode must be +20');
+    if (countryCode != '+7') {
+      throw Exception('countryCode must be +7');
     }
     if (phoneNumber.length != 10) {
       throw Exception('phoneNumber must be 10 digits');
